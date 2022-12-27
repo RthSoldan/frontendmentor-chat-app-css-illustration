@@ -254,6 +254,33 @@
    
 }
 
+@keyframes go-back {
+    0% {
+        transform: translateX(-100px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+.mensagem3__chat{
+    animation: go-back 1s ease-out;
+    
+}
 
 @media screen and (max-width:425px)  {
     
