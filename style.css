@@ -1,0 +1,508 @@
+* {
+    margin: 0px;
+    overflow-x: hidden;
+    font-family: Rubik;
+}
+
+    .background{
+    display: flex;
+    justify-content: space-between;
+}
+
+.primeiraparte__background{
+    
+    width: 40vw;
+    height: 85vh;
+    margin-left: -10vw;
+    margin-bottom: 15vh;
+    background-image: linear-gradient(90deg, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    border-radius: 0% 0% 400px 400px;
+   
+}
+
+.segundaparte__background{
+    width: 40vw;
+    height: 80vh;
+    margin-right: -10vw;
+    margin-top: 15vh;
+    background-image: linear-gradient(180deg, rgb(247, 245, 250), hsl(264, 100%, 61%,0)100%);  
+    
+    border-radius: 400px 400px 0% 0%;
+  
+}
+
+.celular {
+    width: 25vw;
+    background-color: hsl(270, 20%, 96%);
+    border: solid 10px white;
+    border-radius: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    filter: drop-shadow(0.5rem 0.5rem 0.8rem rgba(0, 0, 0, 0.2));
+    transform: scale(0.8);
+    
+          
+}
+
+.branco__celular {
+    background-color: white;
+    width: 40%;
+    height: 3vh;
+    border-radius: 2.5vw;
+    margin: -1.4vh;
+    z-index: 1;
+    
+}
+
+#header__celular {
+    display: flex;
+    align-items: center;
+    background: rgb(154,0,254);
+    background: linear-gradient(90deg, hsl(293, 100%, 63%) 0%, hsl(264, 100%, 61%)100%); 
+    border-radius: 2vw 2vw 0.5vw 0.5vw;
+    color: white;
+    padding: 2vw 0.3vw 1vw 0.3vw ;
+        
+}
+
+#header__celular img  {
+    width: 10%;
+    border: solid 0.2vw white;
+    border-radius: 50%;
+    margin: 0 0.8vw;
+
+}
+
+#icon2__header__celular{
+    margin-left: auto;
+}
+.samuel__celular h3 {
+    margin: 0px;
+    font-size: 1vw;
+}
+
+.samuel__celular p {
+    color: hsl(276, 100%, 81%);
+    margin: 3px 0 0 0;
+    font-size: 0.75vw;
+}
+
+.chat{
+    padding: 0.8vw;
+    border-radius: 0px 0px 5vw 5vw;
+}
+
+.mensagem1__chat p {
+    background-color: rgb(237, 229, 244);
+    width: 50%;
+    padding: 1vw 1vw 1vw 1vw; 
+    border-radius: 1vw;
+    font-size: 0.75vw;
+    color: hsl(276, 55%, 52%);
+    margin: 0.5vw 0;
+}
+
+.mensagem2__chat {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-top: 1vw;
+}
+
+.fotos__2mensagem__chat{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.fotos__2mensagem__chat img{
+    width: 15%;
+    border-radius: 20%;
+    padding-left: 0.5vw;
+     
+}
+
+.mensagens__2mensagem_chat  {
+    width: 60%;
+    
+}
+
+.mensagens__2mensagem_chat  p{
+    background-color: white;
+    padding: 1vw 1vw 1vw 1vw; 
+    border-radius: 1vw;
+    font-size: 0.75vw;
+    color: hsl(271, 15%, 43%);
+    margin: 0.5vw 0;
+}
+
+.mensagem__mensagem3__chat {
+    background-color: rgb(237, 229, 244);
+    width: 55%;
+    padding: 1vw 1vw 1vw 1vw; 
+    border-radius: 1vw;
+    font-size: 0.75vw;
+    color: hsl(276, 55%, 52%); 
+    margin: 0.5vw 0;
+   
+}
+
+.precos__3mensagem__chat1 {
+    display: flex;
+    align-items: center;
+    background: rgb(154,0,254);
+    background: linear-gradient(90deg, hsl(293, 100%, 63%) 0%, hsl(264, 100%, 61%)100%);  
+    border-radius: 1vw 1vw 1vw 0.5vw;
+    width: 90%;
+    color: white;
+    font-size: 0.75vw;
+    margin-bottom: 0.5vw;
+    padding: 1.5vh 0;
+    
+}
+
+.precos__3mensagem__chat1 i {
+    padding: 0 1vw 0 1.5vw;
+    color: hsl(289, 100%, 72%);
+   
+}
+
+.precos__3mensagem__chat1 p {
+    padding: 0px 2vw 0px 0px;
+}
+
+.precos__3mensagem__chat1 h3{
+    margin-left: auto;
+    padding-right: 1.5vw;
+    font-size: 1vw;
+}
+
+.precos__3mensagem__chat2 {
+    display: flex;
+    align-items: center;
+    background: rgb(154,0,254);
+    background: linear-gradient(90deg, hsl(293, 100%, 63%) 0%, hsl(264, 100%, 61%)100%); 
+    border-radius: 1vw 1vw 1vw 0.5vw;
+    width: 90%;
+    color: white;
+    font-size: 0.75vw;
+    margin-bottom: 0.75vw; 
+    padding: 1.5vh 0;
+    
+}
+
+.precos__3mensagem__chat2 i {
+    padding: 0 1vw 0 1.5vw;
+    color: hsl(289, 100%, 72%);
+}
+
+.precos__3mensagem__chat2 p {
+    padding: 0px 2vw 0px 0px;
+}
+
+.precos__3mensagem__chat2 h3{
+    margin-left: auto;
+    padding-right: 1.5vw;
+    font-size: 1vw;
+}
+
+
+.chatbox__chat {
+   margin-top:0.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 2vw;
+    padding: 0.5vw 0.5vw;
+    font-size: 0.8vw;
+    color: hsl(206, 6%, 79%);
+    
+}
+
+.chatbox__chat i {
+    color: hsl(271, 36%, 24%);
+    
+}
+
+.material-icons {
+    font-size: 1.5vw;
+    
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -95vh;
+    
+}
+
+.texto {
+    margin-left: 3vw;
+    color: hsl(271, 36%, 24%);
+    font-size: 1.3vw;
+    text-align: start;
+    width: 30%;
+}
+
+.texto p {
+    margin-top: 4vh; 
+    color: hsl(270, 7%, 64%);
+    line-height: 2vw;
+   
+}
+
+
+@media screen and (max-width:425px)  {
+    
+    
+        .primeiraparte__background {
+            width: 80vw;
+            height: 50vh;
+            margin-left: -25vw;
+            margin-bottom: 10vh;
+            background-image: linear-gradient(90deg, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+            border-radius: 0% 0% 400px 400px;
+
+        }
+
+        .segundaparte__background {
+            width: 80vw;
+            height: 50vh;
+            margin-right: -25vw;
+            margin-top: 50vh;
+            background-image: linear-gradient(180deg, rgb(247, 245, 250), hsl(264, 100%, 61%,0)100%);  
+            border-radius: 400px 400px 0% 0%;
+
+        }
+
+        .conteudo {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: -100vh;
+
+        }
+
+        .celular {
+            width: 90vw;
+            background-color: hsl(270, 20%, 96%);
+            border: solid 15px white;
+            border-radius: 7vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            filter: drop-shadow(1rem 3rem 2rem rgba(0, 0, 0, 0.1));
+
+        }
+
+          .branco__celular {
+            background-color: white;
+            width: 40%;
+            height: 3vh;
+            border-radius: 3vw;
+            margin: -1.4vh;
+            z-index: 1;
+
+        }
+
+        #header__celular {
+            display: flex;
+            align-items: center;
+            background: rgb(154,0,254);
+            background: linear-gradient(90deg, hsl(293, 100%, 63%) 0%, hsl(264, 100%, 61%)100%); 
+            border-radius: 3vw 3vw 0.5vw 0.5vw;
+            color: white;
+            padding: 10vw 5vw 3vw 5vw ;
+            width:  90%;  
+
+        }
+
+        #header__celular img  {
+            width: 10%;
+            border: solid 0.2vw white;
+            border-radius: 50%;
+            margin: 0 3vw;
+
+        }
+
+        #icon2__header__celular{
+            margin-left: auto;
+        }
+
+        .samuel__celular h3 {
+            margin: 0px;
+            font-size: 5vw;
+        }
+
+        .samuel__celular p {
+            color: hsl(276, 100%, 81%);
+            margin: 3px 0 0 0;
+            font-size: 4vw;
+        }
+
+        .chat {
+            padding: 4vw;
+            border-radius: 0px 0px 5vw 5vw;
+        }
+
+        .mensagem1__chat p {
+            background-color: rgb(237, 229, 244);
+            width: 60%;
+            padding: 3vw 3vw 3vw 3vw; 
+            border-radius: 1vw;
+            font-size: 4vw;
+            color: hsl(276, 55%, 52%);
+            margin: 2vw 0;
+        }
+
+        .mensagem2__chat {
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+            margin-top: 2vw;
+        }
+
+        .fotos__2mensagem__chat {
+            display: flex;
+            justify-content: flex-end;
+
+        }
+
+        .fotos__2mensagem__chat img {
+            width: 20%;
+            border-radius: 20%;
+            padding-left: 1vw;
+
+        }
+
+        .mensagens__2mensagem_chat  {
+            width: 60%;
+
+        }
+
+        .mensagens__2mensagem_chat  p {
+            background-color: white;
+            padding: 3vw 3vw 3vw 3vw; 
+            border-radius: 1vw;
+            font-size: 4vw;
+            color: hsl(271, 15%, 43%);
+            margin: 2vw 0;
+        }
+
+        .mensagem__mensagem3__chat {
+            background-color: rgb(237, 229, 244);
+            width: 60%;
+            padding: 3vw 3vw 3vw 3vw; 
+            border-radius: 1vw;
+            font-size: 4vw;
+            color: hsl(276, 55%, 52%); 
+            margin: 2vw 0;
+
+        }
+
+        .precos__3mensagem__chat1 {
+            display: flex;
+            align-items: center;
+            background: rgb(154,0,254);
+            background: linear-gradient(90deg, hsl(293, 100%, 63%) 0%, hsl(264, 100%, 61%)100%);  
+            border-radius: 2vw 2vw 2vw 1vw;
+            width: 90%;
+            color: white;
+            font-size: 4vw;
+            margin-bottom: 1vw;
+            padding: 2vh 0;
+
+        }
+
+        .precos__3mensagem__chat1 i {
+            padding: 0 2vw 0 3vw;
+            color: hsl(289, 100%, 72%);
+
+        }
+
+        .precos__3mensagem__chat1 p {
+            padding: 0px 2vw 0px 0px;
+        }
+
+        .precos__3mensagem__chat1 h3 {
+            margin-left: auto;
+            padding-right: 4vw;
+            font-size: 5vw;
+        }
+
+        .precos__3mensagem__chat2 {
+            display: flex;
+            align-items: center;
+            background: rgb(154,0,254);
+            background: linear-gradient(90deg, hsl(293, 100%, 63%) 0%, hsl(264, 100%, 61%)100%); 
+            border-radius: 2vw 2vw 2vw 1vw;
+            width: 90%;
+            color: white;
+            font-size: 4vw;
+            margin-bottom: 1vw; 
+            padding: 2vh 0;
+
+        }
+
+        .precos__3mensagem__chat2 i {
+            padding: 0 2vw 0 3vw;
+            color: hsl(289, 100%, 72%);
+        }
+
+        .precos__3mensagem__chat2 p {
+            padding: 0px 3vw 0px 0px;
+        }
+
+        .precos__3mensagem__chat2 h3 {
+            margin-left: auto;
+            padding-right: 4vw;
+            font-size: 5vw;
+        }
+
+
+        .chatbox__chat {
+           margin-top: 2vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: white;
+            border-radius: 2vw;
+            padding: 3vw 1vw;
+            font-size: 4vw;
+            color: hsl(206, 6%, 79%);
+
+        }
+
+        .chatbox__chat i {
+            color: hsl(271, 36%, 24%);
+
+        }
+
+        .material-icons {
+            font-size: 2vw;
+
+        }  
+
+        .texto {
+
+           text-align: center;
+            color: hsl(271, 36%, 24%);
+            font-size: 4vw;
+            width: 80%;
+            margin-bottom: 8vh;
+        }
+
+        .texto p {
+            margin-top: 4vh; 
+            color: hsl(270, 7%, 64%);
+            line-height: 7vw;
+
+        }
+
+    
+}
+
+
