@@ -32,7 +32,7 @@
 }
 
 .celular {
-    width: 25vw;
+    width: 22vw;
     background-color: hsl(270, 20%, 96%);
     border: solid 10px white;
     border-radius: 2.5vw;
@@ -242,17 +242,25 @@
 .texto {
     margin-left: 3vw;
     color: hsl(271, 36%, 24%);
-    font-size: 1.3vw;
+    
     text-align: start;
     width: 30%;
 }
 
 .texto p {
-    margin-top: 4vh; 
+    margin-top: 2vh; 
     color: hsl(270, 7%, 64%);
     line-height: 2vw;
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+.texto h1 {
+   font-size: 2.5vw;
+    font-weight: 800;
    
 }
+
 
 @keyframes go-back {
     0% {
@@ -317,7 +325,7 @@
             width: 90vw;
             background-color: hsl(270, 20%, 96%);
             border: solid 15px white;
-            border-radius: 7vw;
+            border-radius: 10vw;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -340,7 +348,7 @@
             align-items: center;
             background: rgb(154,0,254);
             background: linear-gradient(90deg, hsl(293, 100%, 63%) 0%, hsl(264, 100%, 61%)100%); 
-            border-radius: 3vw 3vw 0.5vw 0.5vw;
+            border-radius: 5vw 5vw 0.5vw 0.5vw;
             color: white;
             padding: 10vw 5vw 3vw 5vw ;
             width:  90%;  
@@ -497,7 +505,7 @@
             justify-content: space-between;
             background-color: white;
             border-radius: 2vw;
-            padding: 3vw 1vw;
+            padding: 3vw 2vw;
             font-size: 4vw;
             color: hsl(206, 6%, 79%);
 
@@ -529,7 +537,33 @@
 
         }
 
+    @keyframes go-back {
+    0% {
+        transform: translateX(-100px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+.mensagem3__chat{
+    animation: go-back 1s ease-out;
     
+}
 }
 
 
